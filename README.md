@@ -19,7 +19,7 @@ Now you need to bind the `cljr-ivy` command to some keybinding, I recommend:
 
 ```elisp
 (eval-after-load 'clojure
-	'(define-key clojure-mode-map (kbd "C-c C-m")))
+	'(define-key clojure-mode-map (kbd "C-c C-m") 'cljr-ivy))
 ```
 
 
