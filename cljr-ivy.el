@@ -2,9 +2,9 @@
 
 ;; Author: Wanderson Ferreira <iagwanderson@gmail.com>
 ;; URL: https://github.com/wandersoncferreira/cljr-ivy
-;; Package-Requires: ((clj-refactor "2.5.0") (ivy "0.13.0") (emacs "25.1") (cl-lib "1.0"))
+;; Package-Requires: ((clj-refactor "2.5.0") (ivy "0.13.0") (emacs "24.3") (cl-lib "0.6.1"))
 ;; Version: 0.1
-;; Keywords: ivy, clojure, refactor
+;; Keywords: convenience, matching
 
 ;; Copyright (C) 2020 Wanderson Ferreira <wanderson.ferreira@protonmail.com>
 
