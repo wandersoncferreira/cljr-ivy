@@ -20,4 +20,6 @@ Now you need to bind the `cljr-ivy` command to some keybinding, I recommend:
 `(global-set-key (kbd "C-c C-m")`
 
 
+# Screenshot
+
 ![Example of completions](images/cljr-ivy.png)
