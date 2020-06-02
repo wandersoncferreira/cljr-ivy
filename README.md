@@ -1,5 +1,11 @@
 # Clojure Refactor from Ivy
 
+Clone the repository:
+```
+cd ~/.emacs.d/site-packages
+git submodule add https://github.com/wandersoncferreira/cljr-ivy
+```
+
 Add the package to your load path:
 
 ```elisp
