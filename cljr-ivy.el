@@ -30,15 +30,14 @@
 (require 'ivy)
 (require 'clj-refactor)
 
-(defun cljr-ivy-candidates (str &rest _u)
-  "Generate suggestions to candidate (STR)."
+(defun cljr-ivy-candidates (&rest _u)
+  "Generate suggestions to candidate."
   (mapcar (lambda (c)
 	    (concat (car c) ": " (cl-second (cdr c))))
 	  cljr--all-helpers))
 
-(defun cljr-ivy-invoke (&optional initial-input)
-  "Ivy function to read and display candidates to the user.
-We can pass an INITIAL-INPUT value to be the first candidate searched."
+(defun cljr-ivy-invoke ()
+  "Ivy function to read and display candidates to the user."
   (ivy-read "Clojure Refactor: " #'cljr-ivy-candidates
 	    :action (lambda (entry)
 		      (string-match "^\\(.+?\\): " entry)
