@@ -17,7 +17,10 @@ This assumes you have a `site-packages` folder inside your `emacs.d`.
 
 Now you need to bind the `cljr-ivy` command to some keybinding, I recommend:
 
-`(global-set-key (kbd "C-c C-m")`
+```elisp
+(eval-after-load 'clojure
+	'(define-key clojure-mode-map (kbd "C-c C-m")))
+```
 
 
 # Screenshot
