@@ -1,6 +1,9 @@
 # Clojure Refactor from Ivy
 
-Please, use MELPA to install the package:
+[![MELPA](https://melpa.org/packages/cljr-ivy-badge.svg)](https://melpa.org/#/cljr-ivy)
+
+
+Please, use [MELPA](https://melpa.org/#/) to install the package:
 
 ```
 M-x package-install cljr-ivy
