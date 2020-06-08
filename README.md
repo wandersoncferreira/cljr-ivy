@@ -1,5 +1,12 @@
 # Clojure Refactor from Ivy
 
+Please, use MELPA to install the package:
+
+```
+M-x package-install cljr-ivy
+```
+
+## Manual installation
 Clone the repository:
 ```
 cd ~/.emacs.d/site-packages
@@ -15,11 +22,13 @@ Add the package to your load path:
 
 This assumes you have a `site-packages` folder inside your `emacs.d`.
 
+
+## Usage
 Now you need to bind the `cljr-ivy` command to some keybinding, I recommend:
 
 ```elisp
 (eval-after-load 'clojure
-	'(define-key clojure-mode-map (kbd "C-c C-m") 'cljr-ivy))
+	'(define-key clojure-mode-map (kbd "C-c C-r") 'cljr-ivy))
 ```
 
 
